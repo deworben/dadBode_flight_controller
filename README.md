@@ -4,3 +4,5 @@ pixels are present on the screen. this is necessary for the landing to work, as 
 -multiplexers need debugging
 
 -the code that generates new x,y,z coordinates during landing needs completing
+
+-a constant yaw, pitch and roll should be added and bundled up with the x,y,z coords for the landing references
