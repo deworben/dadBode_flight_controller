@@ -1,6 +1,6 @@
  flightControlSystem_sfun
 
- Timestamp is 5f119a4f (Fri Jul 17 22:32:15 2020)
+ Timestamp is 5f11b5fa (Sat Jul 18 00:30:18 2020)
 
  Preferred load address is 0000000180000000
 
@@ -682,8 +682,8 @@
  0001:000276d0       ??_G?$ScanLine@HHH@@UEAAPEAXI@Z 00000001800286d0 f i insertShapeUtilsCore.obj
  0001:00027710       ??_E?$ScanLineBase@HHE@@UEAAPEAXI@Z 0000000180028710 f i insertShapeUtilsCore.obj
  0001:00027710       ??_G?$ScanLineBase@HHE@@UEAAPEAXI@Z 0000000180028710 f i insertShapeUtilsCore.obj
- 0001:00027750       ??_E?$ScanLineBase@HHH@@UEAAPEAXI@Z 0000000180028750 f i insertShapeUtilsCore.obj
  0001:00027750       ??_G?$ScanLineBase@HHH@@UEAAPEAXI@Z 0000000180028750 f i insertShapeUtilsCore.obj
+ 0001:00027750       ??_E?$ScanLineBase@HHH@@UEAAPEAXI@Z 0000000180028750 f i insertShapeUtilsCore.obj
  0001:00027790       ??_GDrawBase@@UEAAPEAXI@Z  0000000180028790 f i insertShapeUtilsCore.obj
  0001:00027790       ??_EDrawBase@@UEAAPEAXI@Z  0000000180028790 f i insertShapeUtilsCore.obj
  0001:000277d0       ?AbsoluteValue@?$BresenhamLine@HE@@AEAAHH@Z 00000001800287d0 f i insertShapeUtilsCore.obj
@@ -1511,12 +1511,12 @@
  0001:0006137c       ??1bad_alloc@std@@UEAA@XZ  000000018006237c f i MSVCRT:throw_bad_alloc.obj
  0001:00061390       ??1bad_array_new_length@std@@UEAA@XZ 0000000180062390 f i MSVCRT:throw_bad_alloc.obj
  0001:000613a4       ??1exception@std@@UEAA@XZ  00000001800623a4 f i MSVCRT:throw_bad_alloc.obj
- 0001:000613b8       ??_Gbad_alloc@std@@UEAAPEAXI@Z 00000001800623b8 f i MSVCRT:throw_bad_alloc.obj
  0001:000613b8       ??_Ebad_alloc@std@@UEAAPEAXI@Z 00000001800623b8 f i MSVCRT:throw_bad_alloc.obj
+ 0001:000613b8       ??_Gbad_alloc@std@@UEAAPEAXI@Z 00000001800623b8 f i MSVCRT:throw_bad_alloc.obj
  0001:000613fc       ??_Gbad_array_new_length@std@@UEAAPEAXI@Z 00000001800623fc f i MSVCRT:throw_bad_alloc.obj
  0001:000613fc       ??_Ebad_array_new_length@std@@UEAAPEAXI@Z 00000001800623fc f i MSVCRT:throw_bad_alloc.obj
- 0001:00061440       ??_Eexception@std@@UEAAPEAXI@Z 0000000180062440 f i MSVCRT:throw_bad_alloc.obj
  0001:00061440       ??_Gexception@std@@UEAAPEAXI@Z 0000000180062440 f i MSVCRT:throw_bad_alloc.obj
+ 0001:00061440       ??_Eexception@std@@UEAAPEAXI@Z 0000000180062440 f i MSVCRT:throw_bad_alloc.obj
  0001:00061484       ?__scrt_throw_std_bad_alloc@@YAXXZ 0000000180062484 f   MSVCRT:throw_bad_alloc.obj
  0001:000614a4       ?__scrt_throw_std_bad_array_new_length@@YAXXZ 00000001800624a4 f   MSVCRT:throw_bad_alloc.obj
  0001:000614c4       ?what@exception@std@@UEBAPEBDXZ 00000001800624c4 f i MSVCRT:throw_bad_alloc.obj
@@ -1613,23 +1613,23 @@
  0001:000620c4       _crt_at_quick_exit         00000001800630c4 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
  0001:000620ca       _cexit                     00000001800630ca f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
  0001:000620d0       terminate                  00000001800630d0 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
- 0001:000620d8       __vcrt_initialize          00000001800630d8 f   MSVCRT:ucrt_stubs.obj
  0001:000620d8       __scrt_stub_for_acrt_initialize 00000001800630d8 f   MSVCRT:ucrt_stubs.obj
+ 0001:000620d8       __vcrt_initialize          00000001800630d8 f   MSVCRT:ucrt_stubs.obj
  0001:000620d8       __acrt_initialize          00000001800630d8 f   MSVCRT:ucrt_stubs.obj
- 0001:000620dc       __vcrt_thread_attach       00000001800630dc f   MSVCRT:ucrt_stubs.obj
  0001:000620dc       __acrt_thread_attach       00000001800630dc f   MSVCRT:ucrt_stubs.obj
+ 0001:000620dc       __vcrt_thread_attach       00000001800630dc f   MSVCRT:ucrt_stubs.obj
  0001:000620dc       __scrt_stub_for_acrt_thread_attach 00000001800630dc f   MSVCRT:ucrt_stubs.obj
- 0001:000620e0       __vcrt_thread_detach       00000001800630e0 f   MSVCRT:ucrt_stubs.obj
  0001:000620e0       __scrt_stub_for_acrt_thread_detach 00000001800630e0 f   MSVCRT:ucrt_stubs.obj
+ 0001:000620e0       __vcrt_thread_detach       00000001800630e0 f   MSVCRT:ucrt_stubs.obj
  0001:000620e0       __acrt_thread_detach       00000001800630e0 f   MSVCRT:ucrt_stubs.obj
  0001:000620e4       __scrt_stub_for_acrt_uninitialize 00000001800630e4 f   MSVCRT:ucrt_stubs.obj
- 0001:000620e4       __acrt_uninitialize        00000001800630e4 f   MSVCRT:ucrt_stubs.obj
  0001:000620e4       __vcrt_uninitialize        00000001800630e4 f   MSVCRT:ucrt_stubs.obj
- 0001:000620e8       __vcrt_uninitialize_critical 00000001800630e8 f   MSVCRT:ucrt_stubs.obj
- 0001:000620e8       __scrt_stub_for_acrt_uninitialize_critical 00000001800630e8 f   MSVCRT:ucrt_stubs.obj
+ 0001:000620e4       __acrt_uninitialize        00000001800630e4 f   MSVCRT:ucrt_stubs.obj
  0001:000620e8       __acrt_uninitialize_critical 00000001800630e8 f   MSVCRT:ucrt_stubs.obj
- 0001:000620ec       __scrt_stub_for_is_c_termination_complete 00000001800630ec f   MSVCRT:ucrt_stubs.obj
+ 0001:000620e8       __scrt_stub_for_acrt_uninitialize_critical 00000001800630e8 f   MSVCRT:ucrt_stubs.obj
+ 0001:000620e8       __vcrt_uninitialize_critical 00000001800630e8 f   MSVCRT:ucrt_stubs.obj
  0001:000620ec       _is_c_termination_complete 00000001800630ec f   MSVCRT:ucrt_stubs.obj
+ 0001:000620ec       __scrt_stub_for_is_c_termination_complete 00000001800630ec f   MSVCRT:ucrt_stubs.obj
  0001:00062100       _guard_dispatch_icall_nop  0000000180063100 f   MSVCRT:_guard_dispatch_.obj
  0002:00000000       __imp_GetStartupInfoW      0000000180064000     kernel32:KERNEL32.dll
  0002:00000008       __imp_RtlCaptureContext    0000000180064008     kernel32:KERNEL32.dll
@@ -1812,11 +1812,11 @@
  0002:00000598       __real@40e0000000000000    0000000180064598     c1_flightControlSystem.obj
  0002:000005a0       __real@40f86a0000000000    00000001800645a0     c1_flightControlSystem.obj
  0002:000005a8       __real@410fbd0000000000    00000001800645a8     c1_flightControlSystem.obj
- 0002:000005b0       __real@41d1e7abfa400000    00000001800645b0     c1_flightControlSystem.obj
- 0002:000005b8       __real@41d29e2b55c00000    00000001800645b8     c1_flightControlSystem.obj
- 0002:000005c0       __real@41d3e5e840400000    00000001800645c0     c1_flightControlSystem.obj
- 0002:000005c8       __real@41dfffffffc00000    00000001800645c8     c1_flightControlSystem.obj
- 0002:000005d0       __real@41e727a516800000    00000001800645d0     c1_flightControlSystem.obj
+ 0002:000005b0       __real@41dfffffffc00000    00000001800645b0     c1_flightControlSystem.obj
+ 0002:000005b8       __real@41e082fd78200000    00000001800645b8     c1_flightControlSystem.obj
+ 0002:000005c0       __real@41e3d013dbc00000    00000001800645c0     c1_flightControlSystem.obj
+ 0002:000005c8       __real@41e76c7584c00000    00000001800645c8     c1_flightControlSystem.obj
+ 0002:000005d0       __real@41ef71d879c00000    00000001800645d0     c1_flightControlSystem.obj
  0002:000005d8       __real@c0e0000000000000    00000001800645d8     c1_flightControlSystem.obj
  0002:000005e0       DYNAMIC_DIMENSION_DEF      00000001800645e0     flightControlSystem_sfun_registry.obj
  0002:000005f8       __real@41602cbca0000000    00000001800645f8     flightControlSystem_sfun_registry.obj
