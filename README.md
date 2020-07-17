@@ -6,3 +6,5 @@ pixels are present on the screen. this is necessary for the landing to work, as 
 -the code that generates new x,y,z coordinates during landing needs completing
 
 -a constant yaw, pitch and roll should be added and bundled up with the x,y,z coords for the landing references
+
+-once this stuff is working you can alter the section of code that produces LZ_flag to instead be based on the circularity stuff
