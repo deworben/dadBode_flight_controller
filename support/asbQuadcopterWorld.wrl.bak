@@ -76,7 +76,7 @@ DEF first_straight Transform {
       }
     }
     geometry Box {
-      size 1.5 0.001 0.15
+      size 1.5 0.001 0.1
     }
   }
 }
@@ -97,16 +97,18 @@ DEF third_straight Transform {
 }
 # Copyright 2017 The MathWorks, Inc.
 DEF extra_track Transform {
-  translation 58.4 -0.02 93
+  translation 57.85 -0.02 95.55
   scale 1 1 0.75
+  rotation 0 1 0 -0.785398
   children Shape {
     appearance Appearance {
       material Material {
+        transparency 1
         diffuseColor 1 0 0
       }
     }
     geometry Box {
-      size 0.15 0.001 2
+      size 0.1 0.001 2
     }
   }
 }
@@ -121,7 +123,7 @@ DEF second_straight Transform {
       }
     }
     geometry Box {
-      size 0.15 0.001 2
+      size 0.1 0.001 2
     }
   }
 }
