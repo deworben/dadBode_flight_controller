@@ -1,7 +1,7 @@
 /* Include files */
 
 #include "flightControlSystem_sfun.h"
-#include "c1_flightControlSystem.h"
+#include "c12_flightControlSystem.h"
 
 /* Type Definitions */
 
@@ -26,8 +26,8 @@ void flightControlSystem_terminator(void)
 unsigned int sf_flightControlSystem_method_dispatcher(SimStruct *simstructPtr,
   unsigned int chartFileNumber, const char* specsCksum, int_T method, void *data)
 {
-  if (chartFileNumber==1) {
-    c1_flightControlSystem_method_dispatcher(simstructPtr, method, data);
+  if (chartFileNumber==12) {
+    c12_flightControlSystem_method_dispatcher(simstructPtr, method, data);
     return 1;
   }
 
@@ -62,10 +62,10 @@ unsigned int sf_flightControlSystem_process_check_sum_call( int nlhs, mxArray *
       unsigned int chartFileNumber;
       chartFileNumber = (unsigned int)mxGetScalar(prhs[2]);
       switch (chartFileNumber) {
-       case 1:
+       case 12:
         {
-          extern void sf_c1_flightControlSystem_get_check_sum(mxArray *plhs[]);
-          sf_c1_flightControlSystem_get_check_sum(plhs);
+          extern void sf_c12_flightControlSystem_get_check_sum(mxArray *plhs[]);
+          sf_c12_flightControlSystem_get_check_sum(plhs);
           break;
         }
 
@@ -123,13 +123,13 @@ unsigned int sf_flightControlSystem_get_eml_resolved_functions_info( int nlhs,
     instanceChksum[(sizeof(instanceChksum)/sizeof(char)-1)] = '\0';
     chartFileNumber = (unsigned int)mxGetScalar(prhs[1]);
     switch (chartFileNumber) {
-     case 1:
+     case 12:
       {
-        if (strcmp(instanceChksum, "sy7gEGIJoruomc8n18SV4FG") == 0) {
+        if (strcmp(instanceChksum, "sKVKgU4ExbwM9ABhWi3VzbG") == 0) {
           extern const mxArray
-            *sf_c1_flightControlSystem_get_eml_resolved_functions_info(void);
+            *sf_c12_flightControlSystem_get_eml_resolved_functions_info(void);
           mxArray *persistentMxArray = (mxArray *)
-            sf_c1_flightControlSystem_get_eml_resolved_functions_info();
+            sf_c12_flightControlSystem_get_eml_resolved_functions_info();
           plhs[0] = mxDuplicateArray(persistentMxArray);
           mxDestroyArray(persistentMxArray);
           break;
@@ -171,11 +171,11 @@ unsigned int sf_flightControlSystem_third_party_uses_info( int nlhs, mxArray *
     unsigned int chartFileNumber;
     chartFileNumber = (unsigned int)mxGetScalar(prhs[1]);
     switch (chartFileNumber) {
-     case 1:
+     case 12:
       {
-        if (strcmp(tpChksum, "sy7gEGIJoruomc8n18SV4FG") == 0) {
-          extern mxArray *sf_c1_flightControlSystem_third_party_uses_info(void);
-          plhs[0] = sf_c1_flightControlSystem_third_party_uses_info();
+        if (strcmp(tpChksum, "sKVKgU4ExbwM9ABhWi3VzbG") == 0) {
+          extern mxArray *sf_c12_flightControlSystem_third_party_uses_info(void);
+          plhs[0] = sf_c12_flightControlSystem_third_party_uses_info();
           break;
         }
       }
@@ -208,11 +208,11 @@ unsigned int sf_flightControlSystem_jit_fallback_info( int nlhs, mxArray * plhs[
     unsigned int chartFileNumber;
     chartFileNumber = (unsigned int)mxGetScalar(prhs[1]);
     switch (chartFileNumber) {
-     case 1:
+     case 12:
       {
-        if (strcmp(tpChksum, "sy7gEGIJoruomc8n18SV4FG") == 0) {
-          extern mxArray *sf_c1_flightControlSystem_jit_fallback_info(void);
-          plhs[0] = sf_c1_flightControlSystem_jit_fallback_info();
+        if (strcmp(tpChksum, "sKVKgU4ExbwM9ABhWi3VzbG") == 0) {
+          extern mxArray *sf_c12_flightControlSystem_jit_fallback_info(void);
+          plhs[0] = sf_c12_flightControlSystem_jit_fallback_info();
           break;
         }
       }
@@ -245,12 +245,12 @@ unsigned int sf_flightControlSystem_get_post_codegen_info( int nlhs, mxArray *
     unsigned int chartFileNumber;
     chartFileNumber = (unsigned int)mxGetScalar(prhs[1]);
     switch (chartFileNumber) {
-     case 1:
+     case 12:
       {
-        if (strcmp(tpChksum, "sy7gEGIJoruomc8n18SV4FG") == 0) {
-          const char *sf_c1_flightControlSystem_get_post_codegen_info(void);
+        if (strcmp(tpChksum, "sKVKgU4ExbwM9ABhWi3VzbG") == 0) {
+          const char *sf_c12_flightControlSystem_get_post_codegen_info(void);
           const char* encoded_post_codegen_info =
-            sf_c1_flightControlSystem_get_post_codegen_info();
+            sf_c12_flightControlSystem_get_post_codegen_info();
           plhs[0] = sf_mex_decode(encoded_post_codegen_info);
           break;
         }
@@ -284,12 +284,12 @@ unsigned int sf_flightControlSystem_updateBuildInfo_args_info( int nlhs, mxArray
     unsigned int chartFileNumber;
     chartFileNumber = (unsigned int)mxGetScalar(prhs[1]);
     switch (chartFileNumber) {
-     case 1:
+     case 12:
       {
-        if (strcmp(tpChksum, "sy7gEGIJoruomc8n18SV4FG") == 0) {
-          extern mxArray *sf_c1_flightControlSystem_updateBuildInfo_args_info
+        if (strcmp(tpChksum, "sKVKgU4ExbwM9ABhWi3VzbG") == 0) {
+          extern mxArray *sf_c12_flightControlSystem_updateBuildInfo_args_info
             (void);
-          plhs[0] = sf_c1_flightControlSystem_updateBuildInfo_args_info();
+          plhs[0] = sf_c12_flightControlSystem_updateBuildInfo_args_info();
           break;
         }
       }

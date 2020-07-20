@@ -27,7 +27,6 @@
 #define rtIsInf(X)                     ((int)mxIsInf(X))
 
 /* Auxiliary Header Files */
-#include "insertShapeUtilsCore_api.hpp"
 #include "libmwrgb2hsv_tbb.h"
 
 /* Type Definitions */

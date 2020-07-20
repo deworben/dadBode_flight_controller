@@ -91,7 +91,7 @@ DEF third_straight Transform {
       }
     }
     geometry Box {
-      size 0.15 0.001 2
+      size 0.1 0.001 2
     }
   }
 }

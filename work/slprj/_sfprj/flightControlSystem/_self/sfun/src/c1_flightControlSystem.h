@@ -2,45 +2,6 @@
 #define __c1_flightControlSystem_h__
 
 /* Type Definitions */
-#ifndef struct_tag_s8jLCNpXfu23Chj5mOe7fvB
-#define struct_tag_s8jLCNpXfu23Chj5mOe7fvB
-
-struct tag_s8jLCNpXfu23Chj5mOe7fvB
-{
-  uint32_T LineWidth;
-  uint32_T Color;
-  uint32_T Opacity;
-  uint32_T SmoothEdges;
-};
-
-#endif                                 /*struct_tag_s8jLCNpXfu23Chj5mOe7fvB*/
-
-#ifndef typedef_c1_s8jLCNpXfu23Chj5mOe7fvB
-#define typedef_c1_s8jLCNpXfu23Chj5mOe7fvB
-
-typedef struct tag_s8jLCNpXfu23Chj5mOe7fvB c1_s8jLCNpXfu23Chj5mOe7fvB;
-
-#endif                                 /*typedef_c1_s8jLCNpXfu23Chj5mOe7fvB*/
-
-#ifndef struct_tag_s9s8BC13iTohZXRbLMSIDHE
-#define struct_tag_s9s8BC13iTohZXRbLMSIDHE
-
-struct tag_s9s8BC13iTohZXRbLMSIDHE
-{
-  boolean_T CaseSensitivity;
-  boolean_T StructExpand;
-  boolean_T PartialMatching;
-};
-
-#endif                                 /*struct_tag_s9s8BC13iTohZXRbLMSIDHE*/
-
-#ifndef typedef_c1_s9s8BC13iTohZXRbLMSIDHE
-#define typedef_c1_s9s8BC13iTohZXRbLMSIDHE
-
-typedef struct tag_s9s8BC13iTohZXRbLMSIDHE c1_s9s8BC13iTohZXRbLMSIDHE;
-
-#endif                                 /*typedef_c1_s9s8BC13iTohZXRbLMSIDHE*/
-
 #ifndef struct_tag_3spZ2ALoXOei53R2GF7THB
 #define struct_tag_3spZ2ALoXOei53R2GF7THB
 
@@ -108,26 +69,6 @@ struct tag_36mUkzdKTwhCnlKF0bmq5G
 typedef struct tag_36mUkzdKTwhCnlKF0bmq5G c1_visioncodegen_BlobAnalysis;
 
 #endif                                 /*typedef_c1_visioncodegen_BlobAnalysis*/
-
-#ifndef struct_tag_s2t95WuV0WNXJl94sgIEJ8F
-#define struct_tag_s2t95WuV0WNXJl94sgIEJ8F
-
-struct tag_s2t95WuV0WNXJl94sgIEJ8F
-{
-  real_T LineWidth;
-  real_T Color[3];
-  real_T Opacity;
-  boolean_T SmoothEdges;
-};
-
-#endif                                 /*struct_tag_s2t95WuV0WNXJl94sgIEJ8F*/
-
-#ifndef typedef_c1_s2t95WuV0WNXJl94sgIEJ8F
-#define typedef_c1_s2t95WuV0WNXJl94sgIEJ8F
-
-typedef struct tag_s2t95WuV0WNXJl94sgIEJ8F c1_s2t95WuV0WNXJl94sgIEJ8F;
-
-#endif                                 /*typedef_c1_s2t95WuV0WNXJl94sgIEJ8F*/
 
 #ifndef struct_tag_1cLa9LcSjPFVyTnqRkh4VB
 #define struct_tag_1cLa9LcSjPFVyTnqRkh4VB
@@ -279,214 +220,6 @@ typedef struct tag_AF9oIJqGDr0Kstxao4iUJE c1_cell_wrap_2;
 
 #endif                                 /*typedef_c1_cell_wrap_2*/
 
-#ifndef struct_tag_KznwWoC352zRftemIvkNQB
-#define struct_tag_KznwWoC352zRftemIvkNQB
-
-struct tag_KznwWoC352zRftemIvkNQB
-{
-  char_T f1[5];
-  char_T f2[6];
-  char_T f3[5];
-  char_T f4[6];
-  char_T f5[6];
-};
-
-#endif                                 /*struct_tag_KznwWoC352zRftemIvkNQB*/
-
-#ifndef typedef_c1_cell_11
-#define typedef_c1_cell_11
-
-typedef struct tag_KznwWoC352zRftemIvkNQB c1_cell_11;
-
-#endif                                 /*typedef_c1_cell_11*/
-
-#ifndef struct_tag_5M0WXRt2NJNydK0vGqgcaE
-#define struct_tag_5M0WXRt2NJNydK0vGqgcaE
-
-struct tag_5M0WXRt2NJNydK0vGqgcaE
-{
-  char_T f1[4];
-  char_T f2[9];
-};
-
-#endif                                 /*struct_tag_5M0WXRt2NJNydK0vGqgcaE*/
-
-#ifndef typedef_c1_cell_12
-#define typedef_c1_cell_12
-
-typedef struct tag_5M0WXRt2NJNydK0vGqgcaE c1_cell_12;
-
-#endif                                 /*typedef_c1_cell_12*/
-
-#ifndef struct_tag_5dBaxLwVkLe34WwemBGhYB
-#define struct_tag_5dBaxLwVkLe34WwemBGhYB
-
-struct tag_5dBaxLwVkLe34WwemBGhYB
-{
-  char_T f1[9];
-  char_T f2[15];
-  char_T f3[4];
-  char_T f4[7];
-  char_T f5[13];
-  char_T f6[6];
-  char_T f7[12];
-};
-
-#endif                                 /*struct_tag_5dBaxLwVkLe34WwemBGhYB*/
-
-#ifndef typedef_c1_cell_13
-#define typedef_c1_cell_13
-
-typedef struct tag_5dBaxLwVkLe34WwemBGhYB c1_cell_13;
-
-#endif                                 /*typedef_c1_cell_13*/
-
-#ifndef struct_tag_71jNb2ZwKk9dmTqWso4pBB
-#define struct_tag_71jNb2ZwKk9dmTqWso4pBB
-
-struct tag_71jNb2ZwKk9dmTqWso4pBB
-{
-  char_T f1[4];
-  char_T f2[9];
-  char_T f3[2];
-  char_T f4[6];
-};
-
-#endif                                 /*struct_tag_71jNb2ZwKk9dmTqWso4pBB*/
-
-#ifndef typedef_c1_cell_14
-#define typedef_c1_cell_14
-
-typedef struct tag_71jNb2ZwKk9dmTqWso4pBB c1_cell_14;
-
-#endif                                 /*typedef_c1_cell_14*/
-
-#ifndef struct_tag_H7d8XxXr4f9iSCglaaK8TH
-#define struct_tag_H7d8XxXr4f9iSCglaaK8TH
-
-struct tag_H7d8XxXr4f9iSCglaaK8TH
-{
-  char_T f1[9];
-  char_T f2[5];
-  char_T f3[7];
-  char_T f4[11];
-};
-
-#endif                                 /*struct_tag_H7d8XxXr4f9iSCglaaK8TH*/
-
-#ifndef typedef_c1_cell_15
-#define typedef_c1_cell_15
-
-typedef struct tag_H7d8XxXr4f9iSCglaaK8TH c1_cell_15;
-
-#endif                                 /*typedef_c1_cell_15*/
-
-#ifndef struct_tag_oiw2KqDoZ5HE8z8sedYG6
-#define struct_tag_oiw2KqDoZ5HE8z8sedYG6
-
-struct tag_oiw2KqDoZ5HE8z8sedYG6
-{
-  char_T f1[15];
-  char_T f2[12];
-  char_T f3[15];
-};
-
-#endif                                 /*struct_tag_oiw2KqDoZ5HE8z8sedYG6*/
-
-#ifndef typedef_c1_cell_16
-#define typedef_c1_cell_16
-
-typedef struct tag_oiw2KqDoZ5HE8z8sedYG6 c1_cell_16;
-
-#endif                                 /*typedef_c1_cell_16*/
-
-#ifndef struct_tag_KLOt9fSf8A857dnwGkOGZF
-#define struct_tag_KLOt9fSf8A857dnwGkOGZF
-
-struct tag_KLOt9fSf8A857dnwGkOGZF
-{
-  char_T f1[9];
-  char_T f2[7];
-  char_T f3[6];
-  char_T f4[4];
-  char_T f5[8];
-};
-
-#endif                                 /*struct_tag_KLOt9fSf8A857dnwGkOGZF*/
-
-#ifndef typedef_c1_cell_17
-#define typedef_c1_cell_17
-
-typedef struct tag_KLOt9fSf8A857dnwGkOGZF c1_cell_17;
-
-#endif                                 /*typedef_c1_cell_17*/
-
-#ifndef struct_tag_dxoXfmguMdPe98jT87ZgUG
-#define struct_tag_dxoXfmguMdPe98jT87ZgUG
-
-struct tag_dxoXfmguMdPe98jT87ZgUG
-{
-  char_T f1[4];
-  char_T f2[9];
-  char_T f3[6];
-  char_T f4[6];
-  char_T f5[2];
-  char_T f6[4];
-  real_T f7[2];
-};
-
-#endif                                 /*struct_tag_dxoXfmguMdPe98jT87ZgUG*/
-
-#ifndef typedef_c1_cell_18
-#define typedef_c1_cell_18
-
-typedef struct tag_dxoXfmguMdPe98jT87ZgUG c1_cell_18;
-
-#endif                                 /*typedef_c1_cell_18*/
-
-#ifndef struct_tag_7xTzytdeDiidLOxlIJz5fE
-#define struct_tag_7xTzytdeDiidLOxlIJz5fE
-
-struct tag_7xTzytdeDiidLOxlIJz5fE
-{
-  char_T f1[8];
-  char_T f2[6];
-  char_T f3[6];
-  char_T f4[9];
-  char_T f5[4];
-  char_T f6[6];
-  char_T f7[2];
-  real_T f8;
-  char_T f9[2];
-  real_T f10;
-};
-
-#endif                                 /*struct_tag_7xTzytdeDiidLOxlIJz5fE*/
-
-#ifndef typedef_c1_cell_19
-#define typedef_c1_cell_19
-
-typedef struct tag_7xTzytdeDiidLOxlIJz5fE c1_cell_19;
-
-#endif                                 /*typedef_c1_cell_19*/
-
-#ifndef struct_tag_JCMHh5upQJQLkLyj4IvLp
-#define struct_tag_JCMHh5upQJQLkLyj4IvLp
-
-struct tag_JCMHh5upQJQLkLyj4IvLp
-{
-  char_T f1[6];
-};
-
-#endif                                 /*struct_tag_JCMHh5upQJQLkLyj4IvLp*/
-
-#ifndef typedef_c1_cell_wrap_20
-#define typedef_c1_cell_wrap_20
-
-typedef struct tag_JCMHh5upQJQLkLyj4IvLp c1_cell_wrap_20;
-
-#endif                                 /*typedef_c1_cell_wrap_20*/
-
 #ifndef struct_tag_DSOsCbkMJXmOomV3xOVirB
 #define struct_tag_DSOsCbkMJXmOomV3xOVirB
 
@@ -623,176 +356,6 @@ typedef struct tag_i3Yy1eMafhQ5Hb1YroYw5E c1_s_i3Yy1eMafhQ5Hb1YroYw5E;
 
 #endif                                 /*typedef_c1_s_i3Yy1eMafhQ5Hb1YroYw5E*/
 
-#ifndef struct_tag_9BcKSCWAkIlF7GM1yiYLeD
-#define struct_tag_9BcKSCWAkIlF7GM1yiYLeD
-
-struct tag_9BcKSCWAkIlF7GM1yiYLeD
-{
-  c1_cell_11 _data;
-};
-
-#endif                                 /*struct_tag_9BcKSCWAkIlF7GM1yiYLeD*/
-
-#ifndef typedef_c1_s_9BcKSCWAkIlF7GM1yiYLeD
-#define typedef_c1_s_9BcKSCWAkIlF7GM1yiYLeD
-
-typedef struct tag_9BcKSCWAkIlF7GM1yiYLeD c1_s_9BcKSCWAkIlF7GM1yiYLeD;
-
-#endif                                 /*typedef_c1_s_9BcKSCWAkIlF7GM1yiYLeD*/
-
-#ifndef struct_tag_27sgrVx2bOJhZtqy0Vj2mC
-#define struct_tag_27sgrVx2bOJhZtqy0Vj2mC
-
-struct tag_27sgrVx2bOJhZtqy0Vj2mC
-{
-  c1_cell_12 _data;
-};
-
-#endif                                 /*struct_tag_27sgrVx2bOJhZtqy0Vj2mC*/
-
-#ifndef typedef_c1_s_27sgrVx2bOJhZtqy0Vj2mC
-#define typedef_c1_s_27sgrVx2bOJhZtqy0Vj2mC
-
-typedef struct tag_27sgrVx2bOJhZtqy0Vj2mC c1_s_27sgrVx2bOJhZtqy0Vj2mC;
-
-#endif                                 /*typedef_c1_s_27sgrVx2bOJhZtqy0Vj2mC*/
-
-#ifndef struct_tag_QU2oVcecbD4eWPagIAmKGG
-#define struct_tag_QU2oVcecbD4eWPagIAmKGG
-
-struct tag_QU2oVcecbD4eWPagIAmKGG
-{
-  c1_cell_13 _data;
-};
-
-#endif                                 /*struct_tag_QU2oVcecbD4eWPagIAmKGG*/
-
-#ifndef typedef_c1_s_QU2oVcecbD4eWPagIAmKGG
-#define typedef_c1_s_QU2oVcecbD4eWPagIAmKGG
-
-typedef struct tag_QU2oVcecbD4eWPagIAmKGG c1_s_QU2oVcecbD4eWPagIAmKGG;
-
-#endif                                 /*typedef_c1_s_QU2oVcecbD4eWPagIAmKGG*/
-
-#ifndef struct_tag_4vRpbJxi2wSsOodnA5h8iG
-#define struct_tag_4vRpbJxi2wSsOodnA5h8iG
-
-struct tag_4vRpbJxi2wSsOodnA5h8iG
-{
-  c1_cell_14 _data;
-};
-
-#endif                                 /*struct_tag_4vRpbJxi2wSsOodnA5h8iG*/
-
-#ifndef typedef_c1_s_4vRpbJxi2wSsOodnA5h8iG
-#define typedef_c1_s_4vRpbJxi2wSsOodnA5h8iG
-
-typedef struct tag_4vRpbJxi2wSsOodnA5h8iG c1_s_4vRpbJxi2wSsOodnA5h8iG;
-
-#endif                                 /*typedef_c1_s_4vRpbJxi2wSsOodnA5h8iG*/
-
-#ifndef struct_tag_ptb83G7dGDxleoq8CtiJmH
-#define struct_tag_ptb83G7dGDxleoq8CtiJmH
-
-struct tag_ptb83G7dGDxleoq8CtiJmH
-{
-  c1_cell_15 _data;
-};
-
-#endif                                 /*struct_tag_ptb83G7dGDxleoq8CtiJmH*/
-
-#ifndef typedef_c1_s_ptb83G7dGDxleoq8CtiJmH
-#define typedef_c1_s_ptb83G7dGDxleoq8CtiJmH
-
-typedef struct tag_ptb83G7dGDxleoq8CtiJmH c1_s_ptb83G7dGDxleoq8CtiJmH;
-
-#endif                                 /*typedef_c1_s_ptb83G7dGDxleoq8CtiJmH*/
-
-#ifndef struct_tag_psKSejXoMLNKozf5cN5OJD
-#define struct_tag_psKSejXoMLNKozf5cN5OJD
-
-struct tag_psKSejXoMLNKozf5cN5OJD
-{
-  c1_cell_16 _data;
-};
-
-#endif                                 /*struct_tag_psKSejXoMLNKozf5cN5OJD*/
-
-#ifndef typedef_c1_s_psKSejXoMLNKozf5cN5OJD
-#define typedef_c1_s_psKSejXoMLNKozf5cN5OJD
-
-typedef struct tag_psKSejXoMLNKozf5cN5OJD c1_s_psKSejXoMLNKozf5cN5OJD;
-
-#endif                                 /*typedef_c1_s_psKSejXoMLNKozf5cN5OJD*/
-
-#ifndef struct_tag_ZsEj64fBx7mj7R7Q3dED0B
-#define struct_tag_ZsEj64fBx7mj7R7Q3dED0B
-
-struct tag_ZsEj64fBx7mj7R7Q3dED0B
-{
-  c1_cell_17 _data;
-};
-
-#endif                                 /*struct_tag_ZsEj64fBx7mj7R7Q3dED0B*/
-
-#ifndef typedef_c1_s_ZsEj64fBx7mj7R7Q3dED0B
-#define typedef_c1_s_ZsEj64fBx7mj7R7Q3dED0B
-
-typedef struct tag_ZsEj64fBx7mj7R7Q3dED0B c1_s_ZsEj64fBx7mj7R7Q3dED0B;
-
-#endif                                 /*typedef_c1_s_ZsEj64fBx7mj7R7Q3dED0B*/
-
-#ifndef struct_tag_4k4pq5h8r06oXT5hMWEd5D
-#define struct_tag_4k4pq5h8r06oXT5hMWEd5D
-
-struct tag_4k4pq5h8r06oXT5hMWEd5D
-{
-  c1_cell_18 _data;
-};
-
-#endif                                 /*struct_tag_4k4pq5h8r06oXT5hMWEd5D*/
-
-#ifndef typedef_c1_s_4k4pq5h8r06oXT5hMWEd5D
-#define typedef_c1_s_4k4pq5h8r06oXT5hMWEd5D
-
-typedef struct tag_4k4pq5h8r06oXT5hMWEd5D c1_s_4k4pq5h8r06oXT5hMWEd5D;
-
-#endif                                 /*typedef_c1_s_4k4pq5h8r06oXT5hMWEd5D*/
-
-#ifndef struct_tag_6Sw8l3gwJBYIVUxBPSCd5D
-#define struct_tag_6Sw8l3gwJBYIVUxBPSCd5D
-
-struct tag_6Sw8l3gwJBYIVUxBPSCd5D
-{
-  c1_cell_19 _data;
-};
-
-#endif                                 /*struct_tag_6Sw8l3gwJBYIVUxBPSCd5D*/
-
-#ifndef typedef_c1_s_6Sw8l3gwJBYIVUxBPSCd5D
-#define typedef_c1_s_6Sw8l3gwJBYIVUxBPSCd5D
-
-typedef struct tag_6Sw8l3gwJBYIVUxBPSCd5D c1_s_6Sw8l3gwJBYIVUxBPSCd5D;
-
-#endif                                 /*typedef_c1_s_6Sw8l3gwJBYIVUxBPSCd5D*/
-
-#ifndef struct_tag_Y6XvlYTysWyABOiCRpJ3lH
-#define struct_tag_Y6XvlYTysWyABOiCRpJ3lH
-
-struct tag_Y6XvlYTysWyABOiCRpJ3lH
-{
-  c1_cell_wrap_20 _data;
-};
-
-#endif                                 /*struct_tag_Y6XvlYTysWyABOiCRpJ3lH*/
-
-#ifndef typedef_c1_s_Y6XvlYTysWyABOiCRpJ3lH
-#define typedef_c1_s_Y6XvlYTysWyABOiCRpJ3lH
-
-typedef struct tag_Y6XvlYTysWyABOiCRpJ3lH c1_s_Y6XvlYTysWyABOiCRpJ3lH;
-
-#endif                                 /*typedef_c1_s_Y6XvlYTysWyABOiCRpJ3lH*/
-
 #ifndef typedef_SFc1_flightControlSystemInstanceStruct
 #define typedef_SFc1_flightControlSystemInstanceStruct
 
@@ -810,22 +373,21 @@ typedef struct {
   void *c1_RuntimeVar;
   boolean_T c1_isInitialized;
   uint32_T c1_mlFcnLineNumber;
-  void *c1_fcnDataPtrs[15];
-  char_T *c1_dataNames[15];
+  void *c1_fcnDataPtrs[20];
+  char_T *c1_dataNames[20];
   uint32_T c1_numFcnVars;
-  uint32_T c1_ssIds[15];
-  uint32_T c1_statuses[15];
-  void *c1_outMexFcns[15];
-  void *c1_inMexFcns[15];
+  uint32_T c1_ssIds[20];
+  uint32_T c1_statuses[20];
+  void *c1_outMexFcns[20];
+  void *c1_inMexFcns[20];
   real_T c1_I[57600];
   c1_visioncodegen_BlobAnalysis c1_hBlobAnalysis;
-  uint8_T c1_uv[57600];
-  uint8_T c1_uv1[57600];
-  uint8_T c1_uv2[57600];
   CovrtStateflowInstance *c1_covrtInstance;
   void *c1_fEmlrtCtx;
   uint8_T (*c1_frame_info)[57600];
-  uint8_T (*c1_y)[57600];
+  int32_T *c1_LZ_flag;
+  int32_T *c1_LZ_x;
+  int32_T *c1_LZ_y;
 } SFc1_flightControlSystemInstanceStruct;
 
 #endif                                 /*typedef_SFc1_flightControlSystemInstanceStruct*/
