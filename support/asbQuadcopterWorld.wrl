@@ -112,8 +112,9 @@ DEF extra_track Transform {
 }
 # Copyright 2017 The MathWorks, Inc.
 DEF second_straight Transform {
-  translation 58.4 -0.02 95.629
+  translation 57.92 -0.02 95.5
   scale 1 1 0.7
+  rotation 0 1 0 -0.785398
   children Shape {
     appearance Appearance {
       material Material {
