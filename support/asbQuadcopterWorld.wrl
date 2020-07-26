@@ -81,8 +81,38 @@ DEF first_straight Transform {
   }
 }
 # Copyright 2017 The MathWorks, Inc.
-DEF third_straight Transform {
-  translation 57.45 0 96.24
+DEF straight5 Transform {
+  translation 56.7 0 96.4
+  rotation 0 1 0 0.5
+  children Shape {
+    appearance Appearance {
+      material Material {
+        diffuseColor 1 0 0
+      }
+    }
+    geometry Box {
+      size 0.1 0.001 0.9
+    }
+  }
+}
+# Copyright 2017 The MathWorks, Inc.
+DEF straight4 Transform {
+  translation 56.95 0 96.3
+  rotation 0 1 0 0
+  children Shape {
+    appearance Appearance {
+      material Material {
+        diffuseColor 1 0 0
+      }
+    }
+    geometry Box {
+      size 0.1 0.001 1.05
+    }
+  }
+}
+# Copyright 2017 The MathWorks, Inc.
+DEF straight6 Transform {
+  translation 56.25 0 96
   rotation 0 1 0 1.5708
   children Shape {
     appearance Appearance {
@@ -91,14 +121,14 @@ DEF third_straight Transform {
       }
     }
     geometry Box {
-      size 0.1 0.001 2
+      size 0.1 0.001 0.6
     }
   }
 }
 # Copyright 2017 The MathWorks, Inc.
-DEF extra_track Transform {
-  translation 58.4 -0.02 93
-  scale 1 1 0.75
+DEF straight3 Transform {
+  translation 57.2 0 95.85
+  rotation 0 1 0 1.1
   children Shape {
     appearance Appearance {
       material Material {
@@ -106,7 +136,23 @@ DEF extra_track Transform {
       }
     }
     geometry Box {
-      size 0.15 0.001 2
+      size 0.1 0.001 0.6
+    }
+  }
+}
+# Copyright 2017 The MathWorks, Inc.
+DEF extra_track Transform {
+  translation 58.4 -0.02 95.8
+  scale 1 1 0.75
+  children Shape {
+    appearance Appearance {
+      material Material {
+        transparency 1
+        diffuseColor 1 0 0
+      }
+    }
+    geometry Box {
+      size 0.1 0.001 2
     }
   }
 }
@@ -128,7 +174,7 @@ DEF second_straight Transform {
 }
 # Copyright 2017 The MathWorks, Inc.
 DEF LZ Transform {
-  translation 56.25 -0.02 96.24
+  translation 55.75 -0.02 96
   children Shape {
     appearance Appearance {
       material Material {
